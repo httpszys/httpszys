@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">zys · Roblox dev</title>
+  <desc id="desc">A dark, mint-accented banner with an isometric voxel sculpture.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#141b23"/>
+      <stop offset="1" stop-color="#101418"/>
+    </linearGradient>
+    <radialGradient id="ambient">
+      <stop stop-color="#5ae0b2" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#5ae0b2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#a8daca" stroke-opacity=".13"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="26"/>
+    </clipPath>
+    <linearGradient id="gridFade">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".56" stop-color="#fff" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".85"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect width="1200" height="320" fill="url(#gridFade)"/>
+    </mask>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#345749"/>
+      <stop offset="1" stop-color="#203d35"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#245344"/>
+      <stop offset="1" stop-color="#142b26"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b3a33"/>
+      <stop offset="1" stop-color="#101e20"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <ellipse cx="939" cy="154" rx="373" ry="259" fill="url(#ambient)"/>
+    <rect width="1200" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
+    <path d="M661 284h158m-26 12h242m-42-256h94m16 0h48M1142 92h-24v28M704 179h34v-29" fill="none" stroke="#7fe6bd" stroke-opacity=".26" stroke-width="1.5"/>
+    <path d="M690 76h16m-8-8v16m407 162h22m-11-11v22m-336 12h12m-6-6v12" fill="none" stroke="#95eecb" stroke-opacity=".54" stroke-width="1.5"/>
+    <circle cx="1150" cy="40" r="3" fill="#7fe6bd"/>
+    <circle cx="661" cy="284" r="3" fill="#7fe6bd" opacity=".62"/>
+    <path d="M909 288 1100 201 909 114 718 201Z" fill="none" stroke="#8aebc2" stroke-opacity=".16" stroke-width="1.5" stroke-dasharray="5 8"/>
+    <path d="M909 39 1077 118 909 197 741 118Z" fill="url(#top)"/>
+    <path d="M741 118 909 197V275L741 196Z" fill="url(#left)"/>
+    <path d="M909 197 1077 118V196L909 275Z" fill="url(#right)"/>
+    <g fill="none" stroke="#a3e2c9" stroke-opacity=".24" stroke-width="1.5">
+      <path d="M867 58.75 1035 137.75m-210-59.25 168 79m-210-59.25 168 79m0-118.5-168 79m210-59.25-168 79m210-59.25-168 79"/>
+      <path d="M783 137.75v78m42-58.25v78m42-58.25v78m-126-111.25 168 79m-168-53 168 79"/>
+      <path d="M951 177.25v78m42-97.75v78m42-97.75v78m-126 7.25 168-79m-168 105 168-79"/>
+    </g>
+    <path d="m825 78.5 42-19.75 42 19.75-42 19.75z" fill="#63b997" opacity=".74"/>
+    <path d="m909 118 42-19.75 42 19.75-42 19.75z" fill="#74e4b5"/>
+    <path d="m867 137.75 42-19.75 42 19.75-42 19.75z" fill="#3f9f82" opacity=".76"/>
+    <path d="m951 137.75 42-19.75 42 19.75-42 19.75z" fill="#438d75" opacity=".76"/>
+    <path d="M825 183.5 867 203.25V229.25L825 209.5Z" fill="#4eb894" opacity=".73"/>
+    <path d="M867 177.25 909 197V223L867 203.25Z" fill="#75e8b9" opacity=".85"/>
+    <path d="M909 197 951 177.25V203.25L909 223Z" fill="#329474"/>
+    <path d="M993 183.5 1035 163.75V189.75L993 209.5Z" fill="#286650"/>
+    <path d="M909 39 1077 118V196L909 275 741 196V118Z M741 118 909 197 1077 118M909 197V275" fill="none" stroke="#89d9ba" stroke-opacity=".64" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M909 39 1077 118M741 118 909 197" fill="none" stroke="#a2f2d1" stroke-opacity=".76" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="909" cy="197" r="3.5" fill="#c6ffe6"/>
+    <path d="M1099 60 1120 70 1099 80 1078 70Z" fill="#88edbf"/>
+    <path d="M1078 70 1099 80V99L1078 89Z" fill="#438f75"/>
+    <path d="M1099 80 1120 70V89L1099 99Z" fill="#255847"/>
+    <path d="M1099 60 1120 70V89L1099 99 1078 89V70Z" fill="none" stroke="#a3e2c9" stroke-opacity=".59" stroke-width="1.25" stroke-linejoin="round"/>
+    <rect x="83" y="69" width="13" height="13" rx="3" fill="#88edbf"/>
+    <text x="116" y="87" fill="#a5f0ce" font-family="ui-monospace, Consolas, monospace" font-size="33" font-weight="700" letter-spacing="3">ROBLOX DEV</text>
+    <text x="76" y="209" fill="#f1f8f4" font-family="Arial, Helvetica, sans-serif" font-size="146" font-weight="700" letter-spacing="-9">zys</text>
+    <path d="M83 255h44" stroke="#84ecc0" stroke-width="3" stroke-linecap="round"/>
+    <text x="146" y="263" fill="#bfcec9" font-family="ui-monospace, Consolas, monospace" font-size="26" font-weight="700" letter-spacing="1">JOGOS E FERRAMENTAS</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="25" fill="none" stroke="#8abaad" stroke-opacity=".33" stroke-width="2"/>
+</svg>
